@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>වෙසක් කලාපය</title>
+    <link rel='icon' href='assets/webicon.ico' type='image/x-icon'/>
+    <link href="css/thorana.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        @media (max-width: 1100px) {
+            .button-thorana {
+                font-size: 13px;
+                margin-top: 10px;
+            }
+            .thorana-area {
+                padding-bottom: 66px;
+            }
+        }
+        @media (max-width: 720px) {
+            .verticle-line {
+                display: none;
+            }
+        }
+        @media (min-width: 1200px) {
+            .container {
+                max-width: 100%;
+            }
+        }
+        body {
+            background-image: url('assets/thorana/Background.jpg');
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            text-align: right;
+            position: relative;
+        }
+        button {
+            width: 900px; 
+            height: 350px; 
+            font-size: 100px; 
+            color: rgb(0, 0, 0); 
+            background-color: #f7ee8a; 
+            border: none; 
+            border-radius: 10px; 
+            cursor: pointer;
+            position: relative;
+            top: 150px;
+            right: 150px;
+        }
+        button:hover {
+            background-color: #fac000; 
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+        }
+        .fa {
+            padding: 40px;
+            font-size: 100px;
+            width: 100px;
+            height: 100px;
+            text-align: center;
+            margin: 5px 2px;
+        }
+        .fa:hover {
+            opacity: 0.7;
+        }
+        .fa-facebook {
+            background: #3B5998;
+            color: white;
+        }
+        .fa-github {
+            background: #000000;
+            color: white;
+        }
+        .fa-linkedin {
+            background: #1754cd;
+            color: white;
+        }
+        .fa-instagram {
+            background: #dd00ff;
+            color: white;
+        }
+
+        .end-text {
+            font-size: 100px;
+            color: #fac000;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <audio id="myAudio" loop preload="auto">
+        <source src="assets/thorana/bg.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+    
+    <button onclick="toggleAudio()">සවන්දීමට හෝ නවත්වන්න Click කරන්න.</button>
+    
+    <script>
+        function toggleAudio() {
+            var audio = document.getElementById("myAudio");
+            if (audio.paused) {
+                audio.play();
+            } else {
+                audio.pause();
+            }
+        }
+    </script>
+
+
+    
+    <div id="one">
+        <div class="iure seven-id">
+            <img src="assets/thorana/gif/7.gif" class="_17_0"/>
+            <img src="assets/thorana/17.1.png" class="_17_1"/>
+        </div>
+        <div class="iure">
+            <img src="assets/thorana/gif/16.gif" class="_16_0"/>
+            <img src="assets/thorana/16.1.png" class="_16_1"/>
+        </div>
+        <div class="iure nine-id">
+            <img src="assets/thorana/gif/9.gif" class="_15_0"/>
+            <img src="assets/thorana/15.1.png" class="_15_1"/>
+        </div>
+    </div>
+    <div id="two">
+        <div class="iure two-top-left">
+            <img src="assets/thorana/gif/2.gif" class="_11_0"/>
+            <img src="assets/thorana/11.1.png" class="_11_1"/>
+        </div>
+        <div class="iure two-left">
+            <img src="assets/thorana/gif/circle.gif" class="_12_0"/>
+            <img src="assets/thorana/12.1.png" class="_12_1"/>
+        </div>
+        <div class="iure two-right">
+            <img src="assets/thorana/gif/circle.gif" class="_13_0"/>
+            <img src="assets/thorana/13.1.png" class="_13_1"/>
+        </div>
+        <div class="iure two-top-right">
+            <img src="assets/thorana/gif/2.gif" class="_14_0 img-flip"/>
+            <img src="assets/thorana/14.1.png" class="_14_1"/>
+        </div>
+    </div>
+    <div id="three">
+        <div class="iure three-one">
+            <img src="assets/thorana/gif/circle.gif" class="_10_0"/>
+            <img src="assets/thorana/10.1.png" class="_10_1"/>
+        </div>
+        <div class="iure three-two">
+            <img src="assets/thorana/gif/circle.gif" class="_9_0"/>
+            <img src="assets/thorana/9.1.png" class="_9_1"/>
+        </div>
+        <div class="iure three-three">
+            <img src="assets/thorana/flower.png" class="flower"/>
+            <img src="assets/thorana/gif/8.gif" class="_8_0"/>
+            <img src="assets/thorana/8.1.png" class="_8_1" />
+        </div>
+        <div class="iure three-four">
+            <img src="assets/thorana/gif/circle.gif" class="_7_0"/>
+            <img src="assets/thorana/7.1.png" class="_7_1" />
+        </div>
+        <div class="iure three-five">
+            <img src="assets/thorana/gif/circle.gif" class="_6_0"/>
+            <img src="assets/thorana/6.1.png" class="_6_1" />
+        </div>
+    </div>
+    <div id="four">
+        <div class="iure four-one">
+            <img src="assets/thorana/gif/1.gif" class="_1_0"/>
+            <img src="assets/thorana/1.1.png" class="_1_1" />
+        </div>
+        <div class="iure four-two">
+            <img src="assets/thorana/gif/2.gif" class="_2_0"/>
+            <img src="assets/thorana/2.1.png" class="_2_1" />
+        </div>
+        <div>
+            <div class="iure four-three">
+                <img src="assets/thorana/gif/leaves.gif" class="leaves" />
+                <img src="assets/thorana/gif/circle.gif" class="_3_0"/>
+                <img src="assets/thorana/3.1.png" class="_3_1"/>
+            </div>
+        </div>
+    
+        <div class="iure four-four">
+            <img src="assets/thorana/gif/2.gif" class="_2_0 img-flip" />
+            <img src="assets/thorana/4.1.png" class="_4_1" />
+        </div>
+        <div class="iure four-five">
+            <img src="assets/thorana/gif/1.gif" class="_1_0 img-flip" />
+            <img src="assets/thorana/5.1.png" class="_5_1" />
+        </div>
+    </div>
+        <div class="design-lay_">
+            <div>
+                <img src="assets/thorana/Design_01.png" id="design"/>
+            </div>
+            <div class="bottom-bar">
+                <img src="assets/thorana/base.png" id="bottom-base-id"/>
+            </div>
+        </div>
+
+    <footer>
+        <div class="end-text">
+            <h1>පින්බර වෙසක් මංගල්‍යයක් වේවා...!</h1>
+            <p>මෙම නිර්මාණ අත්හදාබැලීමේ අරමුණින් සිදුකරන ලද්දකි.</p>
+            <h2>ඔබගේ අදහස් පහළ Social Media Link හරහා ලබා දෙන්න.</h2>
+            <h1>Thank You All ... !</h1>
+        </div>
+        <div class="container">
+            <a href="https://web.facebook.com/nadun.daluwatta.3/" class="fa fa-facebook"></a>
+            <a href="https://github.com/NadunDaluwatta" class="fa fa-github"></a>
+            <a href="https://www.linkedin.com/in/nadun-daluwatta-639815204/" class="fa fa-linkedin"></a>
+            <a href="https://www.instagram.com/nadun_dalu/" class="fa fa-instagram"></a>
+        </div>
+    </footer>
+</body>
+</html>
