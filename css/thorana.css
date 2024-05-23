@@ -1,0 +1,496 @@
+
+
+/* thorana css -*/
+
+#one, #two {
+    display: inline-flex;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    top: 3vw;
+    position: relative;
+}
+
+#two {
+
+}
+
+._17_0 {
+    
+}
+
+._17_1 {
+    
+    position: absolute;
+}
+
+._16_0 {
+    
+    top: -3vw;
+    position: relative;
+    top: -4vw;
+}
+
+._16_1 {
+    width: 10.5vw;
+    
+    top: -3.5vw;
+    position: absolute;
+    top: -4vw;
+    
+}
+
+._15_0 {
+    
+}
+
+._15_1 {
+    
+    position: absolute;
+}
+
+._11_0 {
+    width: 10.5vw;
+    margin: 0 0vw;
+}
+
+._11_1 {
+    width: 6.5vw;
+    
+    position: absolute;
+}
+
+.two-left {
+    right: calc(7vw);
+    top: -7vw;
+}
+
+._12_0 {
+    width: 13vw;
+   
+}
+
+._12_1 {
+    width: 12vw;
+    position: absolute;
+}
+
+.two-right {
+    left: calc(7vw);
+    top: -7vw;
+}
+
+._13_0 {
+    width: 13vw;
+}
+
+._13_1 {
+    width: 12vw;
+    position: absolute;
+}
+
+.two-top-right {
+    left: calc(5.5vw);
+    top: -3vw;
+}
+
+.two-top-left {
+    right: calc(5.5vw);
+    top: -3vw;
+}
+
+._14_0 {
+    width: 10.5vw;
+}
+
+._14_1 {
+    width: 6.5vw;
+    position: absolute;
+}
+
+#three {
+    display: inline-flex;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    position: relative;
+    top: -10vw;
+}
+
+.three-one, .three-five {
+    top: 2vw;
+}
+
+.three-three {
+    top: -2vw;
+    z-index: 6;
+}
+
+._10_0 {
+    width: 15vw;
+    margin: 0 0vw;
+}
+
+._10_1 {
+    width: 10.5vw;
+    position: absolute;
+}
+
+._10_0, ._9_0 {
+    width: 15vw;
+    margin: 0 0vw;
+}
+
+._9_0 {
+    width: 15vw;
+    margin: 0 0vw;
+}
+
+._9_1 {
+    width: 10.5vw;
+    margin: 0 0.5vw;
+    position: absolute;
+}
+
+.flower {
+    position: absolute;
+    width: 17vw;
+    top: -4vw;
+}
+
+._8_0 {
+    width: 23vw;
+    margin: 0 0vw;
+    background: black;
+}
+
+._8_1 {
+    width: 25vw;
+    margin: 0 0.5vw;
+    position: absolute;
+    width: 27vw;
+    top: 0vw;
+}
+
+._7_0 {
+    width: 15vw;
+    margin: 0 0vw;
+}
+
+._7_1 {
+    width: 10.5vw;
+    margin: 0 0.5vw;
+    position: absolute;
+}
+
+._6_0 {
+    width: 15vw;
+    margin: 0 0vw;
+}
+
+._6_1 {
+    width: 10.5vw;
+    margin: 0 0.5vw;
+    position: absolute;
+}
+
+#four {
+    display: inline-flex;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    position: relative;
+    top: -13vw;
+    top: -16vw;
+}
+
+.four-one {
+    top: 1.5vw;
+}
+
+._1_0 {
+    width: 10.5vw;
+    margin: 0 0px;
+}
+
+._1_1 {
+    width: 6.5vw;
+    margin: 0 0px;
+    position: absolute;
+}
+
+.four-two {
+    position: relative;
+    top: 1vw;
+}
+
+._2_0 {
+    width: 10.5vw;
+    margin: 0 0px;
+}
+
+._2_1 {
+    width: 6.5vw;
+    margin: 0 0px;
+    position: absolute;
+}
+
+.leaves {
+    width: 27vw;
+    height: 13vw;
+    object-fit: contain;
+}
+
+._3_0 {
+    width: 11vw;
+    margin: 0 0px;
+    position: absolute;
+    top: 3vw;
+    z-index: 0 !important;
+}
+
+._3_1 {
+    width: 8vw;
+    margin: 0 0px;
+    position: absolute;
+    top: 4.5vw;
+    z-index: 12 !important;
+}
+
+.four-four {
+    position: relative;
+    top: 1vw;
+}
+
+._4_0 {
+    width: 10.5vw;
+    margin: 0 0px;
+}
+
+._4_1 {
+    width: 6.5vw;
+    margin: 0 0px;
+    position: absolute;
+}
+
+.four-five {
+    top: -1.4vw;
+}
+
+._5_0 {
+    width: 10.5vw;
+    margin: 0 0px;
+}
+
+._5_1 {
+    width: 6.5vw;
+    margin: 0 0px;
+    position: absolute;
+}
+
+.bottom-bar {
+    display: inline-flex;
+    flex: unset;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    top: -20.5vw;
+    position: relative;
+}
+
+#bottom-left {
+    width: 8vw;
+    height: 15vw;
+}
+
+#bottom-base {
+    width: 84vw;
+    height: 10vw;
+}
+
+#bottom-right {
+    width: 8vw;
+    height: 15vw;
+}
+
+.bottom {
+    z-index: 10;
+}
+
+.iure {
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.design-lay {
+    display: inline-flex;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    top: -66vw;
+}
+
+#design {
+
+    width: 70vw;
+    position: absolute;
+    top: calc(9vw + 105px);
+    left: 14.6vw;
+    z-index: 0;
+    margin: auto;
+}
+
+._12_0, ._12_1,
+._13_0, ._13_1,
+._10_0, ._10_1,
+._9_0, ._9_1,
+._8_0, ._8_1,
+._7_0, ._7_1,
+._6_0, ._6_1,
+._3_0, ._3_1 {
+    border-radius: 50%;
+}
+
+._17_0, ._16_0, ._15_0, ._14_0, ._8_0,
+._1_0, ._2_0, ._3_0, ._4_0, ._5_0, ._11_0 {
+    z-index: 4;
+}
+
+._17_1, ._16_1, ._15_1, ._14_1, ._8_1,
+._1_1, ._2_1, ._3_1, ._4_1, ._5_1, ._11_1 {
+    z-index: 5;
+}
+
+._12_0, ._13_0,
+._7_0, ._6_0, ._10_0, ._9_0 {
+    z-index: 6;
+}
+
+._12_1, ._13_1,
+._7_1, ._6_1, ._10_1, ._9_1 {
+    z-index: 7;
+}
+
+.bottom-bar, .flower {
+    z-index: unset;
+}
+
+/*---------*/
+.four-four, .four-two {
+    top: 0.5vw;
+}
+
+.four-five, .four-one {
+    top: 1.5vw;
+}
+
+.four-three {
+    z-index: 1;
+    top: 2vw;
+}
+
+/*----*/
+._17_0, ._16_0, ._15_0 {
+    width: 11.5vw;
+}
+
+/*squre*/
+._17_0, ._16_0, ._15_0, ._14_0, ._11_0,
+._4_0, ._5_0, ._2_0, ._1_0 {
+    width: 13.5vw;
+}
+
+._17_1, ._16_1, ._15_1, ._14_1, ._11_1,
+._4_1, ._5_1, ._2_1, ._1_1 {
+    width: 13.5vw;
+}
+
+/* -- circle --*/
+._9_0, ._6_0, ._10_0, ._10_0,
+._7_0 {
+    width: 13vw;
+}
+
+._9_1, ._6_1, ._10_1, ._10_1,
+._7_1 {
+    width: 13vw;
+}
+
+._8_1 {
+    z-index: 10;
+    border-radius: 0;
+}
+
+/*top square*/
+._16_0, ._16_1,
+._17_0, ._17_1,
+._15_0, ._15_1,
+._14_0, ._14_1,
+._11_0, ._11_1 {
+    width: 12.5vw;
+}
+
+.three-one {
+    left: 0.5vw;
+}
+
+.three-five {
+    right: 0.5vw;
+}
+
+/*---*/
+.four-one {
+    left: 1.4vw;
+}
+
+.four-five {
+    left: -1.4vw;
+}
+
+.three-two {
+    left: 0.2vw;
+}
+
+.three-four {
+    right: 0.2vw;
+}
+
+#bottom-base-id {
+    width: 100%;
+    top: 1vw;
+    position: relative;
+}
+.img-flip {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+.seven-id {
+    left: -0.5vw;
+    top: -1.3vw;
+}
+.nine-id {
+    right: -0.5vw;
+    top: -1.3vw;
+}
+/* --- end ---*/
+
+.bg-img {
+    z-index: 999999999999;
+    height: 100vh;
+    position: relative;
+    alignment: bottom;
+}
+
+
+
+body {
+    background-color: #2f0039;
+    background-image: url(../assets/thorana/Background.jpg) !important;
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+}
